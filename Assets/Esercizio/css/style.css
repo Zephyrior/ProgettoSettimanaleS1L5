@@ -1,0 +1,129 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300&display=swap');
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+    font-family: "Open Sans";
+}
+header{
+    background-color: black;
+    padding: 2rem;
+}
+nav {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 3rem;
+}
+article {
+    background-color: #e22d0e;
+    color: white;
+}
+footer {
+    background-color: #25a2c3;
+    padding: 1.3rem;
+}
+h1, h3 {
+    color: #25a2c3;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2 {
+    color: white;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: "Montserrat";
+    margin-bottom: 1rem;
+    margin-top: 1rem ;
+}
+
+footer, footer a, footer p a {
+    color: #c8e7f0;    
+}
+
+h1 {
+    font-size: 2.5em;
+}
+main {
+    margin: 3rem 2rem;
+}
+nav a {
+    background-color: #e22d0e;
+    background-size: cover;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0.9rem 1.6rem;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    border:solid #e22d0e;
+    
+}
+h3{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+#laptop{
+    border-radius: 500%;
+}
+.laptop1{
+    margin-bottom: 2rem;
+}
+article {
+    padding: 2rem 3rem;
+}
+article q {
+    font-style: italic;
+    font-size: 0.8em;
+}
+#mario{
+    margin-top: 1.8rem;
+}
+#ceo {
+    font-size: 0.7em;
+    margin-top: 0rem;
+}
+aside{
+    padding: 3rem 0rem;
+}
+aside div{
+    border: solid #dee1e3;
+    margin: 2rem;
+}
+aside div p{
+    margin-bottom: 3rem;
+}
+aside div img{
+    width: 385px;
+    height: 300px;
+}
+#num{
+    text-decoration: underline;
+}
+address {
+    margin-bottom: 1.5rem;
+}
+footer address p{
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+footer span {
+    display: inline-block;
+    border-top: solid #c8e7f0;    
+    padding-top: 1.9rem;
+    font-size: 0.6em;
+}
+i{
+    color: white;
+}
